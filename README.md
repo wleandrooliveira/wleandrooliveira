@@ -1,4 +1,4 @@
-<h1 align="center">Wanderson Leandro de Oliveira</h1>
+<h1 align="center">Wanderson Leandro</h1>
 
 <p align="center">
   <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud<br/>
@@ -78,6 +78,28 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+---
+
+## 🏛️ Featured on
+
+<p>
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=obsidian-mcp-secure">
+    <img src="https://img.shields.io/badge/Anthropic_MCP_Registry-obsidian--mcp--secure-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" alt="Listed on official MCP Registry"/>
+  </a>
+  <a href="https://www.npmjs.com/package/obsidian-mcp-secure">
+    <img src="https://img.shields.io/npm/dt/obsidian-mcp-secure?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads"/>
+  </a>
+</p>
+
+## 📦 Latest shipping
+
+| Date | What | Where |
+|------|------|-------|
+| Apr 2026 | **obsidian-mcp-secure v1.0.3** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
+| Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
+| 2025–2026 | **Fermio Platform** — multi-tenant AI agents platform (NestJS + Nuxt 3) | private |
+| 2024 | **Document Quality Scoring API** — Python → Rust rewrite (Axum/Tokio) | private |
 
 ---
 
