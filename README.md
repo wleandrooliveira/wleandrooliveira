@@ -1,4 +1,4 @@
-<h1 align="center">Wanderson Leandro de Oliveira</h1>
+<h1 align="center">Wanderson Leandro</h1>
 
 <p align="center">
   <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud<br/>
@@ -90,16 +90,6 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
   <a href="https://www.npmjs.com/package/obsidian-mcp-secure">
     <img src="https://img.shields.io/npm/dt/obsidian-mcp-secure?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads"/>
   </a>
-</p>
-
-## 🔥 Activity
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wleandrooliveira&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wleandrooliveira&show_icons=true&count_private=true&include_all_commits=true&hide=prs,issues&theme=default&hide_border=true&custom_title=Commits%20%26%20Stars"/>
 </p>
 
 ## 📦 Latest shipping
