@@ -1,4 +1,4 @@
-<h1 align="center">Wanderson Leandro</h1>
+<h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
   <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud<br/>
