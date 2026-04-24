@@ -92,6 +92,16 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
   </a>
 </p>
 
+## 🔥 Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wleandrooliveira&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wleandrooliveira&show_icons=true&count_private=true&include_all_commits=true&hide=prs,issues&theme=default&hide_border=true&custom_title=Commits%20%26%20Stars"/>
+</p>
+
 ## 📦 Latest shipping
 
 | Date | What | Where |
