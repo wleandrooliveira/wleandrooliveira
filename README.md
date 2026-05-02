@@ -1,4 +1,4 @@
-<h1 align="center">Wanderson Leandro</h1>
+<h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
   <b>AI Engineer</b> &middot; LLM Agents &middot; RAG/GraphRAG &middot; Backend &amp; Cloud
@@ -14,7 +14,7 @@
 
 ---
 
-## About
+## 👋 About
 
 I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI, Anthropic Claude, Gemini), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
 
@@ -22,7 +22,7 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 ---
 
-## Focus Areas
+## 🧠 Focus Areas
 
 - **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs
 - **Vector / Graph Search** — Qdrant, Neo4j, ElasticSearch vector, semantic search
@@ -32,29 +32,29 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure)
+### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure)
 Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
 
-### Fermio Platform
+### 🔹 Fermio Platform
 Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provider routing across OpenAI, Anthropic Claude and Gemini. Apps: `api-agent-ai`, `orchestrator-api`, `chatbot-builder`, `atendimento-omnichannel`, `video-translator`, `synapse-process-audio` (FastAPI) and `code-assistant-vscode`.
 
-### Fermio Engineering Copilot
+### 🔹 Fermio Engineering Copilot
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
-### DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
+### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
 Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Includes a **CLI** with parallel DAG task runner (75% faster execution), an embedded **GraphRAG engine** (SQLite/sql.js), and an **MCP Server** for deep IDE integration (Cursor/Claude). Install with `npx @dewtech/dare-cli init`. [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
 
-### fermio-gitops
+### 🔹 fermio-gitops
 Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
 
-### Document Quality Scoring API (Python to Rust)
+### 🔹 Document Quality Scoring API (Python to Rust)
 Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules — no heavy deps (no OpenCV/NumPy). Major throughput gain and memory reduction in production.
 
 ---
 
-## Stack
+## 🛠️ Stack
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -83,7 +83,7 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 ---
 
-## Featured on
+## 🏛️ Featured on
 
 <p>
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=obsidian-mcp-secure">
@@ -100,7 +100,7 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
   </a>
 </p>
 
-## Latest shipping
+## 📦 Latest shipping
 
 | Date | What | Where |
 |------|------|-------|
@@ -112,10 +112,10 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 ---
 
-## Let's talk
+## 📫 Let's talk
 
 If you're building **LLM-powered products**, **agentic systems** or **RAG/GraphRAG pipelines** and want someone who can ship to production — reach out.
 
-- Email: wleandro.oliveira@gmail.com
-- Open to **remote** (global, timezone UTC-3 / BRT)
-- **PJ** contracts via Dewtech or full-time
+- 📧 wleandro.oliveira@gmail.com
+- 🌎 Open to **remote** (global, timezone UTC-3 / BRT)
+- 💼 **PJ** contracts via Dewtech or full-time
