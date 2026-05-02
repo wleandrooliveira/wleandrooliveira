@@ -1,7 +1,8 @@
 <h1 align="center">Wanderson Leandro</h1>
 
 <p align="center">
-  <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud<br/>
+  <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud  
+
   <sub>Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> · Belo Horizonte/MG 🇧🇷 · Open to remote</sub>
 </p>
 
@@ -14,7 +15,7 @@
 
 ## 👋 About
 
-I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI · Anthropic Claude · Gemini), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
+I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI · Anthropic Claude · Gemini ), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
 
 Currently building the **Fermio Platform** — a multi-tenant AI agents platform — and the **Fermio Engineering Copilot**, applying GenAI to mechanical engineering (parametric CAD + FEA/CFD).
 
@@ -32,8 +33,8 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 ## 🚀 Featured Projects
 
-### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure)
-Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
+### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm )](https://www.npmjs.com/package/obsidian-mcp-secure ) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square )](https://www.npmjs.com/package/obsidian-mcp-secure )
+Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io )** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure )
 
 ### 🔹 Fermio Platform
 Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provider routing across OpenAI, Anthropic Claude and Gemini. Apps: `api-agent-ai`, `orchestrator-api`, `chatbot-builder`, `atendimento-omnichannel`, `video-translator`, `synapse-process-audio` (FastAPI) and `code-assistant-vscode`.
@@ -41,8 +42,8 @@ Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provi
 ### 🔹 Fermio Engineering Copilot
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
-### 🔹 DARE Method
-Authored methodology for **Context Engineering / Agentic Engineering**: Design → Architect → Review → Execute. Structured flow combining human planning with AI execution, keeping mandatory human-in-the-loop reviews. Cursor IDE integration + a Rust variant (**DARE Antigravity**) with structured telemetry.
+### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm )](https://www.npmjs.com/package/@dewtech/dare-cli )
+Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design → Architect → Review → Execute). Includes a **CLI** with parallel DAG task runner (75% faster execution), an embedded **GraphRAG engine** (SQLite/sql.js), and an **MCP Server** for deep IDE integration (Cursor/Claude). Install with `npx @dewtech/dare-cli init`. → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method )
 
 ### 🔹 fermio-gitops
 Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
@@ -54,30 +55,30 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 ## 🛠️ Stack
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Nuxt](https://img.shields.io/badge/-Nuxt%203-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white )
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white )
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white )
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white )
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white )
+![Nuxt](https://img.shields.io/badge/-Nuxt%203-00DC82?style=flat-square&logo=nuxt.js&logoColor=white )
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white )
+![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white )
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white )
 
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/-Anthropic%20Claude-D97757?style=flat-square)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
-![HuggingFace](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Qdrant](https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square)
-![Neo4j](https://img.shields.io/badge/-Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white )
+![Anthropic](https://img.shields.io/badge/-Anthropic%20Claude-D97757?style=flat-square )
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square )
+![HuggingFace](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black )
+![Qdrant](https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square )
+![Neo4j](https://img.shields.io/badge/-Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white )
 
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/-Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white )
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white )
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white )
+![Oracle Cloud](https://img.shields.io/badge/-Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white )
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white )
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white )
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white )
 
 ---
 
@@ -96,7 +97,8 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 | Date | What | Where |
 |------|------|-------|
-| Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
+| May 2026 | **@dewtech/dare-cli v0.2.0** — DARE Framework CLI with DAG Runner & GraphRAG | [npm](https://www.npmjs.com/package/@dewtech/dare-cli ) · [GitHub](https://github.com/dewtech-technologies/dare-method ) |
+| Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure ) · [MCP Registry](https://registry.modelcontextprotocol.io ) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure ) |
 | Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
 | 2025–2026 | **Fermio Platform** — multi-tenant AI agents platform (NestJS + Nuxt 3) | private |
 | 2024 | **Document Quality Scoring API** — Python → Rust rewrite (Axum/Tokio) | private |
