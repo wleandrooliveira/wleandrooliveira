@@ -1,8 +1,10 @@
-<h1 align="center">Wanderson Leandro</h1>
+<h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
-  <b>AI Engineer</b> · LLM Agents · RAG/GraphRAG · Backend & Cloud<br/>
-  <sub>Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> · Belo Horizonte/MG 🇧🇷 · Open to remote</sub>
+  <b>AI Engineer</b> &middot; LLM Agents &middot; RAG/GraphRAG &middot; Backend &amp; Cloud
+</p>
+<p align="center">
+  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Belo Horizonte/MG &middot; Open to remote
 </p>
 
 <p align="center">
@@ -14,7 +16,7 @@
 
 ## 👋 About
 
-I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI · Anthropic Claude · Gemini), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
+I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI, Anthropic Claude, Gemini), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
 
 Currently building the **Fermio Platform** — a multi-tenant AI agents platform — and the **Fermio Engineering Copilot**, applying GenAI to mechanical engineering (parametric CAD + FEA/CFD).
 
@@ -24,7 +26,7 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 - **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs
 - **Vector / Graph Search** — Qdrant, Neo4j, ElasticSearch vector, semantic search
-- **Agentic Engineering** — author of the **DARE Method** (Design → Architect → Review → Execute)
+- **Agentic Engineering** — author of the **DARE Method** (Design, Architect, Review, Execute)
 - **Production AI** — multi-tenant, multi-provider routing, observability, cost control
 - **Cloud Native** — Kubernetes (OKE), GitOps, multi-cloud (AWS, OCI)
 
@@ -41,13 +43,13 @@ Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provi
 ### 🔹 Fermio Engineering Copilot
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
-### 🔹 DARE Method
-Authored methodology for **Context Engineering / Agentic Engineering**: Design → Architect → Review → Execute. Structured flow combining human planning with AI execution, keeping mandatory human-in-the-loop reviews. Cursor IDE integration + a Rust variant (**DARE Antigravity**) with structured telemetry.
+### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
+Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Includes a **CLI** with parallel DAG task runner (75% faster execution), an embedded **GraphRAG engine** (SQLite/sql.js), and an **MCP Server** for deep IDE integration (Cursor/Claude). Install with `npx @dewtech/dare-cli init`. [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
 
 ### 🔹 fermio-gitops
 Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
 
-### 🔹 Document Quality Scoring API (Python → Rust)
+### 🔹 Document Quality Scoring API (Python to Rust)
 Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules — no heavy deps (no OpenCV/NumPy). Major throughput gain and memory reduction in production.
 
 ---
@@ -88,7 +90,13 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
     <img src="https://img.shields.io/badge/Anthropic_MCP_Registry-obsidian--mcp--secure-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" alt="Listed on official MCP Registry"/>
   </a>
   <a href="https://www.npmjs.com/package/obsidian-mcp-secure">
-    <img src="https://img.shields.io/npm/dt/obsidian-mcp-secure?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads"/>
+    <img src="https://img.shields.io/npm/dt/obsidian-mcp-secure?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads obsidian-mcp-secure"/>
+  </a>
+  <a href="https://www.npmjs.com/package/@dewtech/dare-cli">
+    <img src="https://img.shields.io/npm/v/@dewtech/dare-cli?style=for-the-badge&label=%40dewtech%2Fdare-cli&color=5A67D8&logo=npm&logoColor=white" alt="@dewtech/dare-cli version"/>
+  </a>
+  <a href="https://www.npmjs.com/package/@dewtech/dare-cli">
+    <img src="https://img.shields.io/npm/dt/@dewtech/dare-cli?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads dare-cli"/>
   </a>
 </p>
 
@@ -96,10 +104,11 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 | Date | What | Where |
 |------|------|-------|
+| May 2026 | **@dewtech/dare-cli v0.2.0** — DARE Framework CLI with DAG Runner & GraphRAG | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
 | Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
-| 2025–2026 | **Fermio Platform** — multi-tenant AI agents platform (NestJS + Nuxt 3) | private |
-| 2024 | **Document Quality Scoring API** — Python → Rust rewrite (Axum/Tokio) | private |
+| 2025-2026 | **Fermio Platform** — multi-tenant AI agents platform (NestJS + Nuxt 3) | private |
+| 2024 | **Document Quality Scoring API** — Python to Rust rewrite (Axum/Tokio) | private |
 
 ---
 
