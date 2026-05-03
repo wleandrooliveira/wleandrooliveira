@@ -32,7 +32,7 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 ## 🚀 Featured Projects
 
-### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure)
+### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure) [![Smithery](https://smithery.ai/badge/wleandro-oliveira/obsidian-mcp-secure)](https://smithery.ai/servers/wleandro-oliveira/obsidian-mcp-secure)
 Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
 
 ### 🔹 Fermio Platform
