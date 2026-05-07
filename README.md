@@ -44,7 +44,7 @@ Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provi
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
 ### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
-Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Includes a **CLI** with parallel DAG task runner (75% faster execution), an embedded **GraphRAG engine** (SQLite/sql.js), and an **MCP Server** for deep IDE integration (Cursor/Claude). Install with `npx @dewtech/dare-cli init`. [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
+Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Install with `npm i -g @dewtech/dare-cli`. → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
 
 ### 🔹 fermio-gitops
 Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
@@ -104,7 +104,7 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 | Date | What | Where |
 |------|------|-------|
-| May 2026 | **@dewtech/dare-cli v0.2.0** — DARE Framework CLI with DAG Runner & GraphRAG | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
+| May 2026 | **@dewtech/dare-cli v2.9.0** — single-package CLI for the DARE Method: official-scaffold bootstrap (native or Docker), parallel DAG Task Runner with live canvas, mandatory Ralph Loop per task, GraphRAG (SQLite/JSON/Neo4j) and MCP Server. 8 backend/frontend stacks supported. | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
 | Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
 | 2025-2026 | **Fermio Platform** — multi-tenant AI agents platform (NestJS + Nuxt 3) | private |
