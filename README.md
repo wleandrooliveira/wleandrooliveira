@@ -34,6 +34,9 @@ Currently building the **Fermio Platform** — a multi-tenant AI agents platform
 
 ## 🚀 Featured Projects
 
+### 🔹 tubemind-secure-mcp [![npm](https://img.shields.io/npm/v/tubemind-secure-mcp?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/tubemind-secure-mcp) [![downloads](https://img.shields.io/npm/dm/tubemind-secure-mcp?style=flat-square)](https://www.npmjs.com/package/tubemind-secure-mcp)
+Open-source **Model Context Protocol** server bringing **YouTube intelligence** into Claude Desktop — **18 production tools** across search, video, channel analytics, benchmark, competitor research and content heuristics (CTR potential, retention signals, hook angles, content calendar). Backed by the official **YouTube Data API v3 + YouTube Analytics API** with **OAuth2** (Brand Account support). Secure by design: **AES-256-GCM** token encryption at rest, SSRF guard, rate limiting, audit logging, Zod-validated inputs — all mapped to **OWASP Top 10**. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind)** as `io.github.dewtech-technologies/tubemind-secure-mcp`. Install with `npx tubemind-secure-mcp`. → [tubemind.dewtech.tech](https://tubemind.dewtech.tech) · [github.com/dewtech-technologies/tubemind-secure-mcp](https://github.com/dewtech-technologies/tubemind-secure-mcp)
+
 ### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure) [![Smithery](https://smithery.ai/badge/wleandro-oliveira/obsidian-mcp-secure)](https://smithery.ai/servers/wleandro-oliveira/obsidian-mcp-secure)
 Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
 
@@ -98,12 +101,19 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
   <a href="https://www.npmjs.com/package/@dewtech/dare-cli">
     <img src="https://img.shields.io/npm/dt/@dewtech/dare-cli?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads dare-cli"/>
   </a>
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=tubemind-secure-mcp">
+    <img src="https://img.shields.io/badge/Anthropic_MCP_Registry-tubemind--secure--mcp-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" alt="tubemind-secure-mcp on MCP Registry"/>
+  </a>
+  <a href="https://www.npmjs.com/package/tubemind-secure-mcp">
+    <img src="https://img.shields.io/npm/dt/tubemind-secure-mcp?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads tubemind-secure-mcp"/>
+  </a>
 </p>
 
 ## 📦 Latest shipping
 
 | Date | What | Where |
 |------|------|-------|
+| May 2026 | **tubemind-secure-mcp v0.1.3** — Secure MCP server for YouTube intelligence: 18 tools (search, analytics, benchmark, heuristics, competitor research) for Claude Desktop, OAuth2 with Brand Account support, AES-256-GCM token encryption at rest, OWASP Top 10 controls. Listed on the official Anthropic MCP Registry as `io.github.dewtech-technologies/tubemind-secure-mcp`. | [npm](https://www.npmjs.com/package/tubemind-secure-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind) · [GitHub](https://github.com/dewtech-technologies/tubemind-secure-mcp) |
 | May 2026 | **@dewtech/dare-cli v2.9.0** — single-package CLI for the DARE Method: official-scaffold bootstrap (native or Docker), parallel DAG Task Runner with live canvas, mandatory Ralph Loop per task, GraphRAG (SQLite/JSON/Neo4j) and MCP Server. 8 backend/frontend stacks supported. | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
 | Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
