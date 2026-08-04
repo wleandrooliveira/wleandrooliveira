@@ -1,34 +1,39 @@
 <h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
-  <b>AI Engineer</b> &middot; LLM Agents &middot; RAG/GraphRAG &middot; Backend &amp; Cloud
+  <b>AI Security Engineer</b> &middot; LLM Application Security &middot; Agentic Systems &middot; Backend &amp; Cloud
 </p>
 <p align="center">
-  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Belo Horizonte/MG &middot; Open to remote
+  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Author of <a href="https://darelabs.tech">DARE Method</a> &middot; Belo Horizonte/MG &middot; Open to remote
 </p>
 
 <p align="center">
   <a href="mailto:wleandro.oliveira@gmail.com"><img src="https://img.shields.io/badge/email-wleandro.oliveira%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/wleandrooliveira"><img src="https://img.shields.io/badge/GitHub-wleandrooliveira-181717?style=flat-square&logo=github"/></a>
+  <a href="https://darelabs.tech"><img src="https://img.shields.io/badge/darelabs.tech-5A67D8?style=flat-square"/></a>
+  <a href="https://dewtech.tech"><img src="https://img.shields.io/badge/dewtech.tech-0070f3?style=flat-square"/></a>
 </p>
 
 ---
 
 ## 👋 About
 
-I take **AI prototypes from notebook to production**. 10+ years in software engineering, now focused on **LLM applications**: multi-provider agents (OpenAI, Anthropic Claude, Gemini), **RAG** and **GraphRAG** architectures (Neo4j + Qdrant), prompt engineering and tool calling — with a strong backend foundation (NestJS, Python, .NET, Java, Rust) and Kubernetes (OKE) so things ship with observability and controlled cost.
+**AI Security Engineer** building production-grade security tooling for LLM applications and agentic systems. Author of **2 MCP servers on Anthropic's official registry**. 15+ years of backend, cloud and security engineering across enterprise telecom, retail, e-commerce and IoT.
 
-Currently building the **Fermio Platform** — a multi-tenant AI agents platform — and the **Fermio Engineering Copilot**, applying GenAI to mechanical engineering (parametric CAD + FEA/CFD).
+I take **AI prototypes from notebook to production** with security-by-design: OWASP Top 10 controls, AES-256-GCM encryption, SSRF guards, audit logging. Multi-provider LLM routing (OpenAI, Anthropic, Gemini), **RAG** and **GraphRAG** (Neo4j + Qdrant), Kubernetes (OKE/GCP Cloud Run) — things ship with observability and controlled cost.
+
+Portfolio operates as three GitHub orgs: [**dewtech-technologies**](https://github.com/dewtech-technologies) (parent), [**darelabs-tech**](https://github.com/darelabs-tech) (community & tooling for DARE Method) and [**fermio-technologies**](https://github.com/fermio-technologies) (AI Security products).
 
 ---
 
 ## 🧠 Focus Areas
 
+- **AI Security** — MCP secure design, OWASP LLM Top 10, red teaming, RASP (Runtime Application Self-Protection), audit logging
 - **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs
 - **Vector / Graph Search** — Qdrant, Neo4j, ElasticSearch vector, semantic search
-- **Agentic Engineering** — author of the **DARE Method** (Design, Architect, Review, Execute)
+- **Agentic Engineering** — author of the **DARE Method** (Design, Architect, Review, Execute) &middot; community at [darelabs.tech](https://darelabs.tech)
 - **Production AI** — multi-tenant, multi-provider routing, observability, cost control
-- **Cloud Native** — Kubernetes (OKE), GitOps, multi-cloud (AWS, OCI)
+- **Cloud Native** — Kubernetes (OKE), Cloud Run (GCP), GitOps, multi-cloud (AWS, OCI, GCP)
 
 ---
 
@@ -46,8 +51,14 @@ Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provi
 ### 🔹 Fermio Engineering Copilot
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
-### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
-Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Install with `npm i -g @dewtech/dare-cli`. → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
+### 🔹 Fermio Sec CLI
+Open-source security CLI for AI pipelines under the **fermio-technologies** org. Ships alongside internal proprietary modules for **automated red-teaming** (OWASP LLM Top 10 — prompt injection, jailbreak fuzzing, tool-call exploitation) and **RASP** (Runtime Application Self-Protection) for LLM workloads in production. → [github.com/fermio-technologies/fermio-sec-cli](https://github.com/fermio-technologies/fermio-sec-cli)
+
+### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm&label=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
+Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Now with a **Rust-native rewrite** at [darelabs-tech/dare-cli](https://github.com/darelabs-tech/dare-cli). → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
+
+### 🔹 DARE Labs — [darelabs.tech](https://darelabs.tech)
+Official community platform for the DARE Method, built in **Ruby on Rails** and shipped to production. Technical libraries, hands-on labs, and verified engineering projects — the "how to build software with method, AI and security" hub for the DARE community. → [darelabs.tech](https://darelabs.tech)
 
 ### 🔹 fermio-gitops
 Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
@@ -66,6 +77,7 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/-Nuxt%203-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=flat-square&logo=rubyonrails&logoColor=white)
 ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 
@@ -113,6 +125,9 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 | Date | What | Where |
 |------|------|-------|
+| 2026 | **darelabs.tech** — DARE Method community platform, shipped to production. Ruby on Rails backend + tailored front-end. | [darelabs.tech](https://darelabs.tech) |
+| 2026 | **darelabs-tech/dare-cli** — Rust-native rewrite of the DARE CLI. | [GitHub](https://github.com/darelabs-tech/dare-cli) |
+| 2026 | **fermio-technologies/fermio-sec-cli** — Open-source security CLI for AI pipelines. Companion for private modules (red-teaming, RASP) under `fermio-technologies`. | [GitHub](https://github.com/fermio-technologies/fermio-sec-cli) |
 | May 2026 | **tubemind-secure-mcp v0.1.3** — Secure MCP server for YouTube intelligence: 18 tools (search, analytics, benchmark, heuristics, competitor research) for Claude Desktop, OAuth2 with Brand Account support, AES-256-GCM token encryption at rest, OWASP Top 10 controls. Listed on the official Anthropic MCP Registry as `io.github.dewtech-technologies/tubemind-secure-mcp`. | [npm](https://www.npmjs.com/package/tubemind-secure-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind) · [GitHub](https://github.com/dewtech-technologies/tubemind-secure-mcp) |
 | May 2026 | **@dewtech/dare-cli v2.9.0** — single-package CLI for the DARE Method: official-scaffold bootstrap (native or Docker), parallel DAG Task Runner with live canvas, mandatory Ralph Loop per task, GraphRAG (SQLite/JSON/Neo4j) and MCP Server. 8 backend/frontend stacks supported. | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
