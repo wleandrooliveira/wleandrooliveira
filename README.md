@@ -1,10 +1,10 @@
 <h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
-  <b>AI Security Engineer</b> &middot; LLM Application Security &middot; Agentic Systems &middot; Backend &amp; Cloud
+  <b>AI Security Engineer</b> &middot; Rust Security Tooling &middot; LLM Application Security &middot; Agentic Systems
 </p>
 <p align="center">
-  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Author of <a href="https://darelabs.tech">DARE Method</a> &middot; Belo Horizonte/MG &middot; Open to remote
+  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Author of <a href="https://darelabs.tech">DARE Method</a> &middot; Brazil (UTC&minus;3) &middot; Full US time zone overlap
 </p>
 
 <p align="center">
