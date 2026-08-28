@@ -18,7 +18,7 @@
 
 ## 👋 About
 
-**AI Security Engineer** building production-grade security tooling for LLM applications and agentic systems. Author of **2 MCP servers on Anthropic's official registry**. 15+ years of backend, cloud and security engineering across enterprise telecom, retail, e-commerce and IoT.
+**AI Security Engineer** building production-grade security tooling for LLM applications and agentic systems, mostly in Rust and Python. Author of **2 MCP servers on Anthropic's official registry**. 10+ years of software engineering across enterprise telecom, retail, e-commerce and IoT, with an earlier background in engineering education and CAD.
 
 I take **AI prototypes from notebook to production** with security-by-design: OWASP Top 10 controls, AES-256-GCM encryption, SSRF guards, audit logging. Multi-provider LLM routing (OpenAI, Anthropic, Gemini), **RAG** and **GraphRAG** (Neo4j + Qdrant), Kubernetes (OKE/GCP Cloud Run) — things ship with observability and controlled cost.
 
@@ -28,6 +28,7 @@ Portfolio operates as three GitHub orgs: [**dewtech-technologies**](https://gith
 
 ## 🧠 Focus Areas
 
+- **Systems in Rust** — security tooling, agent runtimes and CLIs: static analysis with taint tracking, native AST parsing, embedded graph databases, DAG schedulers
 - **AI Security** — MCP secure design, OWASP LLM Top 10, red teaming, RASP (Runtime Application Self-Protection), audit logging
 - **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs
 - **Vector / Graph Search** — Qdrant, Neo4j, ElasticSearch vector, semantic search
@@ -38,6 +39,30 @@ Portfolio operates as three GitHub orgs: [**dewtech-technologies**](https://gith
 ---
 
 ## 🚀 Featured Projects
+
+### 🔹 dare-agent-security — Rust
+**Deterministic adversarial validation and security conformance testing for AI agents and MCP systems.** Evidence-first by design: conclusions are backed by reproducible test vectors, deterministic expectations and machine-readable evidence for CI/CD — **not by an LLM acting as the final security judge**. Scope: MCP server and tool discovery, security baseline generation, **authorization and policy validation**, **AuthZEN / COAZ-MCP conformance vectors**, mappings to **OWASP Agentic Security**, and agent/tool/resource attack-path modeling. → [github.com/darelabs-tech/dare-agent-security](https://github.com/darelabs-tech/dare-agent-security)
+
+### 🔹 Fermio Sec CLI — Rust
+Open-source **static analysis CLI written in Rust** for PHP codebases (Laravel, Symfony, WordPress). Taint analysis for command injection, SQL and XSS, **deterministic findings with stable fingerprints**, declarative rulepacks, **SARIF** output and baselines for CI adoption. Local-first — no application execution required. AGPL-3.0. → [github.com/fermio-technologies/fermio-sec-cli](https://github.com/fermio-technologies/fermio-sec-cli)
+
+### 🔹 Dare Agent Coding Run Time — 100% Rust
+Agent execution runtime and **evaluation harness**. Containerized sandboxes isolated from the harness, tasks defined as instruction + repository + verification test, calibrated baselines running in CI.
+
+### 🔹 Nexora — AI-Assisted Offensive Security
+Pentest platform with a **human pentester in the loop**. Automated red-teaming against the **OWASP LLM Top 10** — prompt injection, jailbreak fuzzing, tool-call exploitation — producing compliance-accepted reports. Python, Ruby and Rust.
+
+### 🔹 AI Runtime Security (RASP)
+**Runtime Application Self-Protection** for AI workloads in production. Rust core with Python and JavaScript instrumentation.
+
+### 🔹 DARE Swarm — Applied Research
+Automatic evolution of orchestration topologies for swarms of specialized SLMs (3B–14B). The distinguishing choice: the **fitness function is deterministic engineering verification** (build → test → lint → audit), **not an LLM-as-judge**. NSGA-II multi-objective search over quality, token cost and wall time. Systematic review of 21+ papers.
+
+### 🔹 Dare Synapse — C++ / CUDA
+Research and development of **scalable Transformer architectures, training and inference runtimes, and domain-specific language models built from first principles** in C++ and CUDA. Not my day-to-day area, but it is why I reason about models at the level of what training data actually does to them, not only how to call an API.
+
+### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm&label=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
+Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Now with a **Rust-native rewrite** at [darelabs-tech/dare-cli](https://github.com/darelabs-tech/dare-cli). → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
 
 ### 🔹 tubemind-secure-mcp [![npm](https://img.shields.io/npm/v/tubemind-secure-mcp?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/tubemind-secure-mcp) [![downloads](https://img.shields.io/npm/dm/tubemind-secure-mcp?style=flat-square)](https://www.npmjs.com/package/tubemind-secure-mcp)
 Open-source **Model Context Protocol** server bringing **YouTube intelligence** into Claude Desktop — **18 production tools** across search, video, channel analytics, benchmark, competitor research and content heuristics (CTR potential, retention signals, hook angles, content calendar). Backed by the official **YouTube Data API v3 + YouTube Analytics API** with **OAuth2** (Brand Account support). Secure by design: **AES-256-GCM** token encryption at rest, SSRF guard, rate limiting, audit logging, Zod-validated inputs — all mapped to **OWASP Top 10**. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind)** as `io.github.dewtech-technologies/tubemind-secure-mcp`. Install with `npx tubemind-secure-mcp`. → [tubemind.dewtech.tech](https://tubemind.dewtech.tech) · [github.com/dewtech-technologies/tubemind-secure-mcp](https://github.com/dewtech-technologies/tubemind-secure-mcp)
@@ -51,22 +76,16 @@ Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provi
 ### 🔹 Fermio Engineering Copilot
 Generative AI for mechanical engineering. **GraphRAG** (Neo4j + Qdrant) over technical standards, parametric CAD generation with CadQuery/OpenCascade (STEP/STL), FEA (CalculiX) and CFD (OpenFOAM) pipelines. FastAPI + Nuxt 3 + Three.js (JWT-authenticated STL viewer).
 
-### 🔹 Fermio Sec CLI
-Open-source security CLI for AI pipelines under the **fermio-technologies** org. Ships alongside internal proprietary modules for **automated red-teaming** (OWASP LLM Top 10 — prompt injection, jailbreak fuzzing, tool-call exploitation) and **RASP** (Runtime Application Self-Protection) for LLM workloads in production. → [github.com/fermio-technologies/fermio-sec-cli](https://github.com/fermio-technologies/fermio-sec-cli)
-
-### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm&label=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
-Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Now with a **Rust-native rewrite** at [darelabs-tech/dare-cli](https://github.com/darelabs-tech/dare-cli). → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
-
 ### 🔹 DARE Labs — [darelabs.tech](https://darelabs.tech)
 Official community platform for the DARE Method, built in **Ruby on Rails** and shipped to production. Technical libraries, hands-on labs, and verified engineering projects — the "how to build software with method, AI and security" hub for the DARE community. → [darelabs.tech](https://darelabs.tech)
-
-### 🔹 fermio-gitops
-Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
 
 ### 🔹 Document Quality Scoring API (Python to Rust)
 Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules — no heavy deps (no OpenCV/NumPy). Major throughput gain and memory reduction in production.
 
 ---
+
+### 🔹 fermio-gitops
+Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (OKE)** — 12+ production apps, namespaces, secrets, Ingress Nginx, and infra (Postgres/Redis/Qdrant/Neo4j/RabbitMQ).
 
 ## 🛠️ Stack
 
@@ -125,9 +144,15 @@ Rewrote a Python scoring API in **Rust (Axum/Tokio)** with six heuristic modules
 
 | Date | What | Where |
 |------|------|-------|
+| Aug 2026 | **darelabs-tech/dare-agent-security** — deterministic adversarial validation and security conformance testing for AI agents and MCP systems, in **Rust**. Authorization and policy validation, AuthZEN / COAZ-MCP conformance vectors, OWASP Agentic Security mappings, machine-readable evidence for CI/CD. | [GitHub](https://github.com/darelabs-tech/dare-agent-security) |
+| Aug 2026 | **darelabs-tech/dare-swarm** — applied research on evolving multi-agent SLM topologies with a **deterministic engineering fitness function** (build → test → lint → audit) instead of an LLM-as-judge. NSGA-II over quality, token cost and wall time. | private |
+| Aug 2026 | **darelabs-tech/dare-agent-coding-run-time** — agent execution runtime and evaluation harness, **100% Rust**. Containerized sandboxes isolated from the harness, tasks as instruction + repository + verification test, calibrated baselines in CI. | private |
+| Aug 2026 | **fermio-technologies/ai-runtime-security-rasp** — Runtime Application Self-Protection for AI workloads in production. **Rust** core with Python and JavaScript instrumentation. | private |
+| Aug 2026 | **dewtech-technologies/nexora-ai-offensive-security** — AI-assisted pentest platform with a human pentester in the loop. Automated red-teaming against the OWASP LLM Top 10, compliance-accepted reports. | private |
+| Aug 2026 | **darelabs-tech/dare-synapse** — Transformer architectures, training and inference runtimes built from first principles in **C++ / CUDA**. | private |
 | 2026 | **darelabs.tech** — DARE Method community platform, shipped to production. Ruby on Rails backend + tailored front-end. | [darelabs.tech](https://darelabs.tech) |
 | 2026 | **darelabs-tech/dare-cli** — Rust-native rewrite of the DARE CLI. | [GitHub](https://github.com/darelabs-tech/dare-cli) |
-| 2026 | **fermio-technologies/fermio-sec-cli** — Open-source security CLI for AI pipelines. Companion for private modules (red-teaming, RASP) under `fermio-technologies`. | [GitHub](https://github.com/fermio-technologies/fermio-sec-cli) |
+| Jul 2026 | **fermio-technologies/fermio-sec-cli v0.1.0-rc.1** — static analysis CLI in **Rust** for PHP (Laravel, Symfony, WordPress). Taint analysis for command injection, SQL and XSS, deterministic findings with stable fingerprints, SARIF output and CI baselines. | [GitHub](https://github.com/fermio-technologies/fermio-sec-cli) |
 | May 2026 | **tubemind-secure-mcp v0.1.3** — Secure MCP server for YouTube intelligence: 18 tools (search, analytics, benchmark, heuristics, competitor research) for Claude Desktop, OAuth2 with Brand Account support, AES-256-GCM token encryption at rest, OWASP Top 10 controls. Listed on the official Anthropic MCP Registry as `io.github.dewtech-technologies/tubemind-secure-mcp`. | [npm](https://www.npmjs.com/package/tubemind-secure-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind) · [GitHub](https://github.com/dewtech-technologies/tubemind-secure-mcp) |
 | May 2026 | **@dewtech/dare-cli v2.9.0** — single-package CLI for the DARE Method: official-scaffold bootstrap (native or Docker), parallel DAG Task Runner with live canvas, mandatory Ralph Loop per task, GraphRAG (SQLite/JSON/Neo4j) and MCP Server. 8 backend/frontend stacks supported. | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
