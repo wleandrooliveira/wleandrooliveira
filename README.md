@@ -1,10 +1,10 @@
 <h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
-  <b>AI Security Engineer</b> &middot; Rust Security Tooling &middot; LLM Application Security &middot; Agentic Systems
+  <b>Senior Security Engineer</b> &middot; Application Security &middot; Offensive Security &middot; AI Security
 </p>
 <p align="center">
-  Founder @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Author of <a href="https://darelabs.tech">DARE Method</a> &middot; Brazil (UTC&minus;3) &middot; Full US time zone overlap
+  Security Engineer @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Brazil (UTC&minus;3) &middot; Remote
 </p>
 
 <p align="center">
@@ -18,23 +18,26 @@
 
 ## 👋 About
 
-**AI Security Engineer** building production-grade security tooling for LLM applications and agentic systems, mostly in Rust and Python. Author of **2 MCP servers on Anthropic's official registry**. 10+ years of software engineering across enterprise telecom, retail, e-commerce and IoT, with an earlier background in engineering education and CAD.
+**Senior Security Engineer** with 10+ years of software engineering experience, specializing in **Application Security (AppSec), Secure SDLC, Offensive Security, DevSecOps and AI Security** across enterprise telecom, retail, e-commerce and IoT environments.
 
-I take **AI prototypes from notebook to production** with security-by-design: OWASP Top 10 controls, AES-256-GCM encryption, SSRF guards, audit logging. Multi-provider LLM routing (OpenAI, Anthropic, Gemini), **RAG** and **GraphRAG** (Neo4j + Qdrant), Kubernetes (OKE/GCP Cloud Run) — things ship with observability and controlled cost.
+I work across **SAST, DAST, vulnerability remediation, threat modeling, secure architecture, security automation and cloud-native security**, with hands-on engineering in Rust, Python and modern application stacks. My AI security work covers LLM applications, MCP, agentic systems, prompt injection, authorization and policy validation, RASP, RAG/GraphRAG and secure tool use.
 
-Portfolio operates as three GitHub orgs: [**dewtech-technologies**](https://github.com/dewtech-technologies) (parent), [**darelabs-tech**](https://github.com/darelabs-tech) (community & tooling for DARE Method) and [**fermio-technologies**](https://github.com/fermio-technologies) (AI Security products).
+I also build production-grade security tooling and AI systems with security-by-design: OWASP controls, AES-256-GCM encryption, SSRF guards, audit logging, multi-provider LLM routing (OpenAI, Anthropic, Gemini), Kubernetes and GitOps. I am the author of **2 MCP servers listed on Anthropic's official registry**.
+
+Technical work spans [**dewtech-technologies**](https://github.com/dewtech-technologies), [**darelabs-tech**](https://github.com/darelabs-tech) and [**fermio-technologies**](https://github.com/fermio-technologies), including security tooling, applied AI security research and production systems.
 
 ---
 
 ## 🧠 Focus Areas
 
-- **Systems in Rust** — security tooling, agent runtimes and CLIs: static analysis with taint tracking, native AST parsing, embedded graph databases, DAG schedulers
-- **AI Security** — MCP secure design, OWASP LLM Top 10, red teaming, RASP (Runtime Application Self-Protection), audit logging
-- **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs
-- **Vector / Graph Search** — Qdrant, Neo4j, ElasticSearch vector, semantic search
+- **Application Security (AppSec)** — SAST, DAST, Secure SDLC, vulnerability remediation, threat modeling, OWASP Top 10, API and web security
+- **Security Engineering** — security automation, secure architecture, CI/CD security, deterministic validation, auditability and policy enforcement
+- **Offensive Security** — penetration testing, adversarial testing, red teaming, attack-path analysis and exploit-oriented validation
+- **AI Security** — MCP secure design, OWASP LLM / Agentic Security, prompt injection, tool-use security, authorization, RASP and audit logging
+- **DevSecOps & Cloud Security** — Kubernetes, GitOps, CI/CD, AWS, OCI, GCP, Cloud Run and OKE
+- **Systems in Rust** — security tooling, agent runtimes and CLIs: static analysis with taint tracking, native AST parsing, embedded graph databases and DAG schedulers
+- **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs and production observability
 - **Agentic Engineering** — author of the **DARE Method** (Design, Architect, Review, Execute) &middot; community at [darelabs.tech](https://darelabs.tech)
-- **Production AI** — multi-tenant, multi-provider routing, observability, cost control
-- **Cloud Native** — Kubernetes (OKE), Cloud Run (GCP), GitOps, multi-cloud (AWS, OCI, GCP)
 
 ---
 
@@ -164,8 +167,8 @@ Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (
 
 ## 📫 Let's talk
 
-If you're building **LLM-powered products**, **agentic systems** or **RAG/GraphRAG pipelines** and want someone who can ship to production — reach out.
+Open to selected opportunities in **Security Engineering, Application Security (AppSec), Product Security, Offensive Security and AI Security**.
 
 - 📧 wleandro.oliveira@gmail.com
-- 🌎 Open to **remote** (global, timezone UTC-3 / BRT)
-- 💼 **PJ** contracts via Dewtech or full-time
+- 🌎 Brazil (UTC-3 / BRT) · Remote
+- 💼 Senior Security Engineer @ Dewtech
