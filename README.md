@@ -1,10 +1,10 @@
 <h1 align="center">Wanderson Leandro de Oliveira</h1>
 
 <p align="center">
-  <b>Senior Security Engineer</b> &middot; Application Security &middot; Offensive Security &middot; AI Security
+  <b>Senior Security Engineer</b> &middot; Application Security (AppSec) &middot; Product Security &middot; AI Security &middot; DevSecOps
 </p>
 <p align="center">
-  Security Engineer @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Brazil (UTC&minus;3) &middot; Remote
+  Security Engineer @ <a href="https://github.com/dewtech-technologies">Dewtech</a> &middot; Belo Horizonte, MG, Brazil (UTC&minus;3) &middot; Remote
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 I work across **SAST, DAST, vulnerability remediation, threat modeling, secure architecture, security automation and cloud-native security**, with hands-on engineering in Rust, Python and modern application stacks. My AI security work covers LLM applications, MCP, agentic systems, prompt injection, authorization and policy validation, RASP, RAG/GraphRAG and secure tool use.
 
-I also build production-grade security tooling and AI systems with security-by-design: OWASP controls, AES-256-GCM encryption, SSRF guards, audit logging, multi-provider LLM routing (OpenAI, Anthropic, Gemini), Kubernetes and GitOps. I am the author of **2 MCP servers listed on Anthropic's official registry**.
+I also build production-grade security tooling and AI systems with security-by-design: OWASP controls, AES-256-GCM encryption, SSRF guards, audit logging, multi-provider LLM routing (OpenAI, Anthropic, Gemini), Kubernetes and GitOps. I am the author of **2 MCP servers listed in the official MCP Registry**.
 
 Technical work spans [**dewtech-technologies**](https://github.com/dewtech-technologies), [**darelabs-tech**](https://github.com/darelabs-tech) and [**fermio-technologies**](https://github.com/fermio-technologies), including security tooling, applied AI security research and production systems.
 
@@ -65,11 +65,11 @@ Research and development of **scalable Transformer architectures, training and i
 ### 🔹 DARE Framework [![npm](https://img.shields.io/npm/v/@dewtech/dare-cli?style=flat-square&color=CB3837&logo=npm&label=npm)](https://www.npmjs.com/package/@dewtech/dare-cli)
 Open-source toolkit for **Agentic Engineering** implementing the DARE Method (Design, Architect, Review, Execute). Single-package CLI with **official-scaffold bootstrap** (Composer, NestJS, Vite, Cargo, FastAPI, Go) — optionally via **Docker images** when the host has no toolchain — **parallel DAG Task Runner** (Kahn's algorithm + live canvas), **mandatory Ralph Loop** (build/test/lint runs per task before DONE), embedded **GraphRAG engine** (SQLite/JSON/Neo4j HTTP) and an **MCP Server** for deep IDE integration (Cursor, Claude Code, Antigravity). 8 stacks supported: Rust/Axum, Node/NestJS, Python/FastAPI, PHP/Laravel, Go/Gin, Go/stdlib, React, Vue + MCP servers (TS/Python). Now with a **Rust-native rewrite** at [darelabs-tech/dare-cli](https://github.com/darelabs-tech/dare-cli). → [github.com/dewtech-technologies/dare-method](https://github.com/dewtech-technologies/dare-method)
 
-### 🔹 tubemind-secure-mcp [![npm](https://img.shields.io/npm/v/tubemind-secure-mcp?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/tubemind-secure-mcp) [![downloads](https://img.shields.io/npm/dm/tubemind-secure-mcp?style=flat-square)](https://www.npmjs.com/package/tubemind-secure-mcp)
-Open-source **Model Context Protocol** server bringing **YouTube intelligence** into Claude Desktop — **18 production tools** across search, video, channel analytics, benchmark, competitor research and content heuristics (CTR potential, retention signals, hook angles, content calendar). Backed by the official **YouTube Data API v3 + YouTube Analytics API** with **OAuth2** (Brand Account support). Secure by design: **AES-256-GCM** token encryption at rest, SSRF guard, rate limiting, audit logging, Zod-validated inputs — all mapped to **OWASP Top 10**. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind)** as `io.github.dewtech-technologies/tubemind-secure-mcp`. Install with `npx tubemind-secure-mcp`. → [tubemind.dewtech.tech](https://tubemind.dewtech.tech) · [github.com/dewtech-technologies/tubemind-secure-mcp](https://github.com/dewtech-technologies/tubemind-secure-mcp)
+### 🔹 tubemind-secure-mcp [![npm](https://img.shields.io/npm/v/tubemind-secure-mcp?style=flat-square&color=CB3837&logo=npm&label=npm)](https://www.npmjs.com/package/tubemind-secure-mcp) [![downloads](https://img.shields.io/npm/dm/tubemind-secure-mcp?style=flat-square)](https://www.npmjs.com/package/tubemind-secure-mcp)
+Open-source **Model Context Protocol** server bringing **YouTube intelligence** into Claude Desktop — **18 production tools** across search, video, channel analytics, benchmark, competitor research and content heuristics (CTR potential, retention signals, hook angles, content calendar). Backed by the official **YouTube Data API v3 + YouTube Analytics API** with **OAuth2** (Brand Account support). Secure by design: **AES-256-GCM** token encryption at rest, SSRF guard, rate limiting, audit logging, Zod-validated inputs — all mapped to **OWASP Top 10**. **Listed on the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind)** as `io.github.dewtech-technologies/tubemind-secure-mcp`. Install with `npx tubemind-secure-mcp`. → [tubemind.dewtech.tech](https://tubemind.dewtech.tech) · [github.com/dewtech-technologies/tubemind-secure-mcp](https://github.com/dewtech-technologies/tubemind-secure-mcp)
 
 ### 🔹 obsidian-mcp-secure [![npm](https://img.shields.io/npm/v/obsidian-mcp-secure?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/obsidian-mcp-secure) [![downloads](https://img.shields.io/npm/dm/obsidian-mcp-secure?style=flat-square)](https://www.npmjs.com/package/obsidian-mcp-secure) [![Smithery](https://smithery.ai/badge/wleandro-oliveira/obsidian-mcp-secure)](https://smithery.ai/servers/wleandro-oliveira/obsidian-mcp-secure)
-Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official Anthropic MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
+Open-source **Model Context Protocol** server connecting Claude Desktop to Obsidian — 6 tools (read/list/create/edit/delete/search notes) with Zod validation and winston audit logging. Built from scratch with **OWASP Top 10 controls**: path traversal protection, input sanitization, API key via `.env` only, localhost-only enforcement, size limits. **Listed on the [official MCP Registry](https://registry.modelcontextprotocol.io)** as `io.github.dewtech-technologies/obsidian-mcp-secure`. Install with `npx obsidian-mcp-secure`. → [github.com/dewtech-technologies/obsidian-mcp-secure](https://github.com/dewtech-technologies/obsidian-mcp-secure)
 
 ### 🔹 Fermio Platform
 Multi-tenant AI agents platform (monorepo pnpm, NestJS 11 + Nuxt 3). Multi-provider routing across OpenAI, Anthropic Claude and Gemini. Apps: `api-agent-ai`, `orchestrator-api`, `chatbot-builder`, `atendimento-omnichannel`, `video-translator`, `synapse-process-audio` (FastAPI) and `code-assistant-vscode`.
@@ -122,7 +122,7 @@ Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (
 
 <p>
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=obsidian-mcp-secure">
-    <img src="https://img.shields.io/badge/Anthropic_MCP_Registry-obsidian--mcp--secure-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" alt="Listed on official MCP Registry"/>
+    <img src="https://img.shields.io/badge/Official_MCP_Registry-obsidian--mcp--secure-5A67D8?style=for-the-badge" alt="Listed on official MCP Registry"/>
   </a>
   <a href="https://www.npmjs.com/package/obsidian-mcp-secure">
     <img src="https://img.shields.io/npm/dt/obsidian-mcp-secure?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads obsidian-mcp-secure"/>
@@ -134,7 +134,7 @@ Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (
     <img src="https://img.shields.io/npm/dt/@dewtech/dare-cli?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads dare-cli"/>
   </a>
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=tubemind-secure-mcp">
-    <img src="https://img.shields.io/badge/Anthropic_MCP_Registry-tubemind--secure--mcp-5A67D8?style=for-the-badge&logo=anthropic&logoColor=white" alt="tubemind-secure-mcp on MCP Registry"/>
+    <img src="https://img.shields.io/badge/Official_MCP_Registry-tubemind--secure--mcp-5A67D8?style=for-the-badge" alt="tubemind-secure-mcp on MCP Registry"/>
   </a>
   <a href="https://www.npmjs.com/package/tubemind-secure-mcp">
     <img src="https://img.shields.io/npm/dt/tubemind-secure-mcp?style=for-the-badge&label=npm%20total%20downloads&color=CB3837&logo=npm" alt="Total npm downloads tubemind-secure-mcp"/>
@@ -154,7 +154,7 @@ Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (
 | 2026 | **darelabs.tech** — DARE Method community platform, shipped to production. Ruby on Rails backend + tailored front-end. | [darelabs.tech](https://darelabs.tech) |
 | 2026 | **darelabs-tech/dare-cli** — Rust-native rewrite of the DARE CLI. | [GitHub](https://github.com/darelabs-tech/dare-cli) |
 | Jul 2026 | **fermio-technologies/fermio-sec-cli v0.1.0-rc.1** — static analysis CLI in **Rust** for PHP (Laravel, Symfony, WordPress). Taint analysis for command injection, SQL and XSS, deterministic findings with stable fingerprints, SARIF output and CI baselines. | [GitHub](https://github.com/fermio-technologies/fermio-sec-cli) |
-| May 2026 | **tubemind-secure-mcp v0.1.3** — Secure MCP server for YouTube intelligence: 18 tools (search, analytics, benchmark, heuristics, competitor research) for Claude Desktop, OAuth2 with Brand Account support, AES-256-GCM token encryption at rest, OWASP Top 10 controls. Listed on the official Anthropic MCP Registry as `io.github.dewtech-technologies/tubemind-secure-mcp`. | [npm](https://www.npmjs.com/package/tubemind-secure-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind) · [GitHub](https://github.com/dewtech-technologies/tubemind-secure-mcp) |
+| May 2026 | **tubemind-secure-mcp v0.1.3** — Secure MCP server for YouTube intelligence: 18 tools (search, analytics, benchmark, heuristics, competitor research) for Claude Desktop, OAuth2 with Brand Account support, AES-256-GCM token encryption at rest, OWASP Top 10 controls. Listed in the official MCP Registry as `io.github.dewtech-technologies/tubemind-secure-mcp`. | [npm](https://www.npmjs.com/package/tubemind-secure-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tubemind) · [GitHub](https://github.com/dewtech-technologies/tubemind-secure-mcp) |
 | May 2026 | **@dewtech/dare-cli v2.9.0** — single-package CLI for the DARE Method: official-scaffold bootstrap (native or Docker), parallel DAG Task Runner with live canvas, mandatory Ralph Loop per task, GraphRAG (SQLite/JSON/Neo4j) and MCP Server. 8 backend/frontend stacks supported. | [npm](https://www.npmjs.com/package/@dewtech/dare-cli) · [GitHub](https://github.com/dewtech-technologies/dare-method) |
 | Apr 2026 | **obsidian-mcp-secure v1.0.4** — secure MCP bridge for Obsidian | [npm](https://www.npmjs.com/package/obsidian-mcp-secure) · [MCP Registry](https://registry.modelcontextprotocol.io) · [GitHub](https://github.com/dewtech-technologies/obsidian-mcp-secure) |
 | Mar 2026 | **Fermio Engineering Copilot** — GraphRAG + CAD generation for mechanical engineering | private |
@@ -168,5 +168,5 @@ Dedicated GitOps repo with Kubernetes manifests for **Oracle Kubernetes Engine (
 Open to selected opportunities in **Security Engineering, Application Security (AppSec), Product Security, Offensive Security and AI Security**.
 
 - 📧 wleandro.oliveira@gmail.com
-- 🌎 Brazil (UTC-3 / BRT) · Remote
+- 🌎 Belo Horizonte, MG, Brazil (UTC-3 / BRT) · Remote
 - 💼 Senior Security Engineer @ Dewtech
