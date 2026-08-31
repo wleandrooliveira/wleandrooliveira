@@ -10,8 +10,6 @@
 <p align="center">
   <a href="mailto:wleandro.oliveira@gmail.com"><img src="https://img.shields.io/badge/email-wleandro.oliveira%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/wleandrooliveira"><img src="https://img.shields.io/badge/GitHub-wleandrooliveira-181717?style=flat-square&logo=github"/></a>
-  <a href="https://darelabs.tech"><img src="https://img.shields.io/badge/darelabs.tech-5A67D8?style=flat-square"/></a>
-  <a href="https://dewtech.tech"><img src="https://img.shields.io/badge/dewtech.tech-0070f3?style=flat-square"/></a>
 </p>
 
 ---
