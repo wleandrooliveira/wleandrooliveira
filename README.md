@@ -20,7 +20,7 @@
 
 I work across the full application-security lifecycle: **SAST, DAST, SCA, secure code review, threat modeling, vulnerability management, remediation guidance, risk-based security gates, secure architecture and CI/CD security**. My work includes detecting and classifying vulnerabilities, helping engineering teams remediate findings, prioritizing Critical/High risk, producing actionable security reporting and enforcing security controls across delivery pipelines.
 
-Hands-on enterprise AppSec tooling includes **GitLab Security Pipelines, Veracode and Checkmarx**, with additional evaluation/POC experience using **Snyk and Black Duck**. I also build security automation and security tooling in Rust and Python.
+Hands-on enterprise AppSec tooling includes **GitLab Security Pipelines, Veracode and Checkmarx**, with additional evaluation/POC experience using **Snyk and Black Duck**. I also work with **Cloudflare security configuration and security rules for application/edge protection**, and build security automation and security tooling in Rust and Python.
 
 My AI security work covers **LLM applications, MCP, agentic systems, prompt injection, authorization and policy validation, RASP, RAG/GraphRAG and secure tool use**. I build production-grade security tooling and AI systems with security-by-design, including OWASP controls, AES-256-GCM encryption, SSRF guards, audit logging, multi-provider LLM routing, Kubernetes and GitOps. I am the author of **2 MCP servers listed in the official MCP Registry**.
 
@@ -35,6 +35,7 @@ Technical work spans [**dewtech-technologies**](https://github.com/dewtech-techn
 - **Risk-based security gates** — prioritization and enforcement focused on Critical and High severity findings
 - **Secure code review** — security-focused review of application code, APIs and remediation changes
 - **Threat modeling & secure architecture** — attack-surface analysis, trust boundaries, authorization risks and security-by-design decisions
+- **Application & edge security** — Cloudflare security configuration and custom security rules for protecting internet-facing applications
 - **Enterprise tooling** — GitLab Security Pipelines, Veracode and Checkmarx; security-tool evaluation/POCs with Snyk and Black Duck
 - **Regulated environments** — engineering experience across banking, fintech and customer environments operating under PCI requirements
 
@@ -46,7 +47,7 @@ Technical work spans [**dewtech-technologies**](https://github.com/dewtech-techn
 - **Security Engineering** — security automation, secure architecture, CI/CD security, deterministic validation, auditability and policy enforcement
 - **Offensive Security** — penetration testing, adversarial testing, red teaming, attack-path analysis and exploit-oriented validation
 - **AI Security** — MCP secure design, OWASP LLM / Agentic Security, prompt injection, tool-use security, authorization, RASP and audit logging
-- **DevSecOps & Cloud Security** — Kubernetes, GitOps, CI/CD, AWS, OCI, GCP, Cloud Run and OKE
+- **DevSecOps, Cloud & Edge Security** — Kubernetes, GitOps, CI/CD, Cloudflare, AWS, OCI, GCP, Cloud Run and OKE
 - **Systems in Rust** — security tooling, agent runtimes and CLIs: static analysis with taint tracking, native AST parsing, embedded graph databases and DAG schedulers
 - **LLM Applications** — agents, RAG, GraphRAG, tool calling, structured outputs and production observability
 - **Agentic Engineering** — author of the **DARE Method** (Design, Architect, Review, Execute) &middot; community at [darelabs.tech](https://darelabs.tech)
@@ -101,15 +102,15 @@ My security work is backed by hands-on software engineering rather than security
 
 ## 🛠️ Stack
 
-**Security:** SAST · DAST · SCA · Secure Code Review · Threat Modeling · Vulnerability Management · Secure SDLC · OWASP Top 10 · OWASP LLM / Agentic Security · Penetration Testing · Security Gates
+**Security:** SAST · DAST · SCA · Secure Code Review · Threat Modeling · Vulnerability Management · Secure SDLC · OWASP Top 10 · OWASP LLM / Agentic Security · Penetration Testing · Security Gates · Application/Edge Security
 
-**AppSec tooling:** GitLab Security Pipelines · Veracode · Checkmarx · Snyk (POC) · Black Duck (POC)
+**AppSec tooling:** GitLab Security Pipelines · Veracode · Checkmarx · Cloudflare · Snyk (POC) · Black Duck (POC)
 
 **Languages & frameworks:** Rust · Python · TypeScript · Node.js · NestJS · FastAPI · Nuxt · Ruby on Rails · Java · .NET
 
 **AI / Agentic:** OpenAI · Anthropic · Gemini · MCP · RAG · GraphRAG · LangChain · Hugging Face · Qdrant · Neo4j
 
-**Cloud & platform:** Kubernetes · Docker · GitOps · AWS · GCP · Oracle Cloud · PostgreSQL · Redis · Kafka
+**Cloud & platform:** Kubernetes · Docker · GitOps · Cloudflare · AWS · GCP · Oracle Cloud · PostgreSQL · Redis · Kafka
 
 ---
 
